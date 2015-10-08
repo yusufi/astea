@@ -1,0 +1,5 @@
+.breadcrumb > li + li:before {
+    color: #000000;
+    content: "> ";
+}
+
