@@ -28,7 +28,7 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-3">
+        <div class="col-sm-3">
           <form class="navbar-form navbar-left" role="search">
             <div class="form-group">
               <input type="text" class="form-control" style="width: 240px" placeholder="Locate menu items">
@@ -44,39 +44,200 @@
 	      </ul>
 	    </div>
 
-	    <div class="col-md-9">
+	    <div class="col-sm-9">
 	      <div class="row">
-	        <div class="col-md-6">
+	        <div class="col-sm-6">
 		      <ol class="breadcrumb">
    		        <li><a href="#">Home</a></li>
    		        <li><a href="#">Orders</a></li>
 		        <li class="active">Service order</li>
 		      </ol>
 	        </div>
-	        <div class="col-md-6">
+	        <div class="col-sm-6">
 	     	  Function 1
 	     	  Function 2
 	     	  Actions
 	        </div>
 	      </div>
 	      <div class="row">
-	  	    <div class="col-md-8">
-	  	      <h3>SUBJECT</h3>
-	  	      <span>Printer printing giberish from Denis' laptop</span>
-	  	      <div class="row">
-	  	        <div class="col-md-4">
-	  	          <h3>ID</h3>
-	  	          <span>SV1502120026@@1</span>
-	  	        </div>
-	  	        <div class="col-md-4">
-	  	          <h3>PROBLEM TYPE</h3>
-	  	          <span>Faculty printer driver (PT245)</span>
-	  	        </div>
-	  	      </div>
-	  	    </div>
-	  	    <div class="col-md-4">
+	  	    <div class="col-sm-8">
+  				    <table class="table">
+  				      <thead>
+  				        <tr>
+  				          <th>SUBJECT</th>
+  				          <th>ID</th>
+  				        </tr>
+  				      </thead>
+  				      <tbody>
+  				      	<tr>
+  				      	  <td>Printer printing giberish from Denis' laptop</td>
+  				      	  <td>PM 2:13 22/05/2015</td>
+  				      	</tr>
+  				      </tbody>
+  				      <thead>
+  				        <tr>
+  				          <th>PROBLEM TYPE</th>
+  				          <th></th>
+  				        </tr>
+  				      </thead>
+  				      <tbody>
+  				      	<tr>
+  				      	  <td>AM 10:24 20/05/2015</td>
+  				      	  <td>PM 2:13 22/05/2015</td>
+  				      	</tr>
+  				      </tbody>
+  				    </table>	  	    </div>
+	  	    <div class="col-sm-4">
 	  	    	abcd
 	  	    </div>
+	  	  </div>
+	  	  <div class="row">
+	  	  	<div class="col-sm-8">
+	  	  	  <!-- Nav tabs -->
+		      <ul class="nav nav-tabs" role="tablist">
+                <li class="nav-item"><a class="nav-link active" href="#details" role="tab" data-toggle="tab">Details</a></li>
+  				<li class="nav-item"><a class="nav-link" href="#attachments" role="tab" data-toggle="tab">Attachments</a></li>
+  				<li class="nav-item"><a class="nav-link" href="#order_history" role="tab" data-toggle="tab">Order History</a></li>
+  				<li class="nav-item"><a class="nav-link" href="#billing_info" role="tab" data-toggle="tab">Billing Info</a></li>
+			  </ul>
+
+			  <!-- Tab panes -->
+			  <div class="tab-content">
+  				<div role="tabpanel" class="tab-pane active" id="details">
+  				  <a data-toggle="collapse" href="#order_dates">Order Dates</a>
+  				  <div class="collapse in" id="order_dates">
+  				    <table class="table">
+  				      <thead>
+  				        <tr>
+  				          <th>OPEN DATE</th>
+  				          <th>CALL BACK DATE</th>
+  				        </tr>
+  				      </thead>
+  				      <tbody>
+  				      	<tr>
+  				      	  <td>AM 10:24 20/05/2015</td>
+  				      	  <td>PM 2:13 22/05/2015</td>
+  				      	</tr>
+  				      </tbody>
+  				      <thead>
+  				        <tr>
+  				          <th>ETA DATE</th>
+  				          <th>RESOLVED DATE</th>
+  				        </tr>
+  				      </thead>
+  				      <tbody>
+  				      	<tr>
+  				      	  <td>AM 10:24 20/05/2015</td>
+  				      	  <td>PM 2:13 22/05/2015</td>
+  				      	</tr>
+  				      </tbody>
+  				    </table>
+  				  </div>
+ 				  <a data-toggle="collapse" href="#customer_details">Customer Details</a>
+  				  <div class="collapse in" id="customer_details">
+  				    <table class="table">
+  				      <thead>
+  				        <tr>
+  				          <th>CUSTOMER NAMER</th>
+  				          <th>OPENED BY</th>
+  				        </tr>
+  				      </thead>
+  				      <tbody>
+  				      	<tr>
+  				      	  <td>AM 10:24 20/05/2015</td>
+  				      	  <td>PM 2:13 22/05/2015</td>
+  				      	</tr>
+  				      </tbody>
+  				      <thead>
+  				        <tr>
+  				          <th>SITE NAME</th>
+  				          <th>EMAIL</th>
+  				        </tr>
+  				      </thead>
+  				      <tbody>
+  				      	<tr>
+  				      	  <td>AM 10:24 20/05/2015</td>
+  				      	  <td>PM 2:13 22/05/2015</td>
+  				      	</tr>
+  				      </tbody>
+  				    </table>
+  				  </div>  				  
+ 				  <a data-toggle="collapse" href="#product_details">Product Details</a>
+  				  <div class="collapse in" id="product_details">
+  				    <table class="table">
+  				      <thead>
+  				        <tr>
+  				          <th>PRODUCT</th>
+  				          <th>TAG NUMBER</th>
+  				        </tr>
+  				      </thead>
+  				      <tbody>
+  				      	<tr>
+  				      	  <td>AM 10:24 20/05/2015</td>
+  				      	  <td>PM 2:13 22/05/2015</td>
+  				      	</tr>
+  				      </tbody>
+  				      <thead>
+  				        <tr>
+  				          <th>SERIAL NUMBER</th>
+  				          <th>CONTRACT</th>
+  				        </tr>
+  				      </thead>
+  				      <tbody>
+  				      	<tr>
+  				      	  <td>AM 10:24 20/05/2015</td>
+  				      	  <td>PM 2:13 22/05/2015</td>
+  				      	</tr>
+  				      </tbody>
+  				    </table>
+  				  </div>
+ 				  <a data-toggle="collapse" href="#description">Descrition</a>
+ 				  <div class="collapse in" id="description">
+ 				    <p class="description">Last Edited: <span>23/08/2014</span><a href="#">Edit</a></p>
+  				  	<p>When Denis connects to the network with his laptop and tries to print, all the text comes out
+as Gibberish. The laptop model</p>
+  				  </div>  				    				 
+  				</div>
+  				<div role="tabpanel" class="tab-pane" id="attachments">edf</div>
+  				<div role="tabpanel" class="tab-pane" id="order_history">
+  				  <table class="table">
+  				    <thead>
+  				    	<tr>
+  				    	  <th>Date</th>
+  				    	  <th>Action Type</th>
+  				    	  <th>Description</th>
+  				    	  <th>Status</th>
+  				    	  <th>Changed by</th>
+  				    	</tr>
+  				    </thead>
+  				    <tbody>
+  				    	<tr>
+  				    	  <td></td>
+  				    	  <td></td>
+  				    	  <td></td>
+  				    	  <td></td>
+  				    	  <td></td>
+  				    	</tr>
+  				    	<tr>
+  				    	  <td></td>
+  				    	  <td></td>
+  				    	  <td></td>
+  				    	  <td></td>
+  				    	  <td></td>
+  				    	</tr>
+  				    	<tr>
+  				    	  <td></td>
+  				    	  <td></td>
+  				    	  <td></td>
+  				    	  <td></td>
+  				    	  <td></td>
+  				    	</tr>  				    	  				
+  				    </tbody>
+  				  </table>
+  				</div>
+  				<div role="tabpanel" class="tab-pane" id="billing_info">mwq</div>
+			  </div>
+	  	  	</div>
 	  	  </div>
 	    </div>
 	</div>
