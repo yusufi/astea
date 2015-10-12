@@ -3,3 +3,16 @@
     content: "> ";
 }
 
+
+.open-orders, 
+.action-button {
+	color: white;
+	background-color: rgba(237,27,36, 1);
+}
+
+
+.status, 
+.elapsed-time,
+.eta-date {
+	color: rgba(237,27,36, 1);
+}

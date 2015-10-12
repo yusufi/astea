@@ -14,7 +14,7 @@
   <body>
   	<!-- Header Navbar -->
   	<nav class="navbar navbar-default bg-faded">
-  	  <img src="img/fujicom.png">
+  	  <img src="data/fujicom.png">
   	  <span>Customer Portal</span>
   	  <ul class="nav navbar-nav pull-right">
   	    <li class="nav-item"><img src="img/top1.png"></li>
@@ -25,7 +25,6 @@
   	    <li class="nav-item">Powered by <img src="img/astea.png"></li>
   	  </ul>
   	</nav>
-
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-3">
@@ -37,13 +36,12 @@
    	      <ul class="nav">
             <li class="nav-item"><a class="nav-link" href="#"><img src="img/quick_launch.png">Quick Launch</a></li>
   		    <li class="nav-item"><a class="nav-link" href="#"><img src="img/home.png">Home</a></li>
-  		    <li class="nav-item"><a class="nav-link" href="#"><img src="img/open_orders.png">Open Orders</a></li>
+  		    <li class="nav-item"><a class="nav-link open-orders" href="#"><img src="img/open_orders.png">Open Orders</a></li>
   		    <li class="nav-item"><a class="nav-link" href="#"><img src="img/orders_history.png">Order History</a></li>
   		    <li class="nav-item"><a class="nav-link" href="#"><img src="img/invoices.png">Invoices</a></li>
     		<li class="nav-item"><a class="nav-link" href="#"><img src="img/proposals_orders.png">Proposals Orders</a></li>
 	      </ul>
 	    </div>
-
 	    <div class="col-sm-9">
 	      <div class="row">
 	        <div class="col-sm-6">
@@ -57,7 +55,7 @@
 	     	  <button type="button" class="btn btn-secondary">Function 1</button>
 	     	  <button type="button" class="btn btn-secondary">Function 2</button>
 			  <div class="btn-group">
-  			    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Actions</button>
+  			    <button type="button" class="btn btn-secondary dropdown-toggle action-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Actions</button>
   				<div class="dropdown-menu">
  				 <a class="dropdown-item" href="#">Action</a>
     			 <a class="dropdown-item" href="#">Another action</a>
@@ -77,7 +75,7 @@
   		      <tbody>
   				<tr>
   				  <td colspan="3">Printer printing giberish from Denis' laptop</td>
-  				  <td>overdue</td>
+  				  <td class="status">overdue</td>
   				</tr>
   			  </tbody>
   			  <thead>
@@ -91,7 +89,7 @@
   				  <tr>
   				    <td>AM 10:24 20/05/2015</td>
   				    <td colspan="2">Faulty printer driver (PT245)</td>
-  				    <td>37d 4h 14m</td>
+  				    <td class="elapsed-time">37d 4h 14m</td>
   				  </tr>
   				</tbody>
   			</table>
@@ -105,7 +103,6 @@
   				<li class="nav-item"><a class="nav-link" href="#order_history" role="tab" data-toggle="tab">Order History</a></li>
   				<li class="nav-item"><a class="nav-link" href="#billing_info" role="tab" data-toggle="tab">Billing Info</a></li>
 			  </ul>
-
 			  <!-- Tab panes -->
 			  <div class="tab-content">
   				<div role="tabpanel" class="tab-pane active" id="details">
@@ -132,7 +129,7 @@
   				      </thead>
   				      <tbody>
   				      	<tr>
-  				      	  <td>AM 10:24 20/05/2015</td>
+  				      	  <td class="eta-date">AM 10:24 20/05/2015</td>
   				      	  <td>PM 2:13 22/05/2015</td>
   				      	</tr>
   				      </tbody>
@@ -266,7 +263,6 @@
 	  	  </div>
 	    </div>
 	</div>
-
 
   	<!-- Bootstrap JS. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
