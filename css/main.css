@@ -1,18 +1,131 @@
-.breadcrumb > li + li:before {
-    color: #000000;
-    content: "> ";
+/*  Theme Change */
+.left-nav-item:hover {
+	background-color: rgb(237,27,36);
 }
 
-
-.open-orders, 
-.action-button {
-	color: white;
-	background-color: rgba(237,27,36, 1);
+.logo-img {
+	margin-left: 1.5rem;
+	margin-right: 1.5rem;
 }
 
+.customer-portal-text {
+	padding-left: 1.5rem;
+	border-left: solid lightgrey 1px;
+}
+
+.top-nav-item {
+	padding-left: 1.5rem;
+	border-left: solid lightgrey 1px;
+}
 
 .status, 
 .elapsed-time,
 .eta-date {
 	color: rgba(237,27,36, 1);
 }
+
+/* End of Theme Change */
+
+.top-navbar {
+	background-color: #fff;
+	position: relative;
+}
+
+.breadcrumb > li + li:before {
+    color: #000000;
+    content: "> ";
+}
+
+.left-nav-item {
+	padding-left: 1.5rem;
+	line-height: 4rem;
+}
+
+.left-nav {
+	padding-top: 1rem;
+	padding-left: 0;
+	padding-right: 0;
+	border-right: solid lightgrey 1px;
+	background-color: rgb(250, 250, 250);
+}
+
+.nav-link img {
+	padding-right: 1.5rem;
+}
+
+.search-form {
+	width: 15rem;
+	border-radius: 1rem;
+	margin-left: 1.5rem;
+}
+
+.custom-button {
+	border-radius: 1rem;
+}
+
+.content {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.right-side {
+	margin-top: 0rem;
+	background-color: white;
+}
+
+.custom-breadcumb {
+	background-color: #ffffff;
+}
+
+.subject-header {
+	border: lightgrey solid 1px;
+	margin-left: 0;
+	border-radius: 0.5rem;
+	margin-bottom: 1rem;
+	margin-right: 1.5rem;
+}
+
+.navbar-custom {
+	border-radius: 0;
+	border-bottom: solid lightgrey 1px;
+}
+
+.navbar-nav {
+	padding-top: 1rem;
+	margin-right: 1.5rem;
+}
+
+.breadcrumb {
+	padding-top: 1.5rem;
+	margin-: 0;
+}
+
+
+td, th {
+	border: none !important;
+}
+
+
+.custom-tab {
+	margin-right: 1.5rem;
+}
+
+.custom-tab-pan {
+	border-bottom: solid lightgrey 1px;
+	margin-bottom: 1rem;
+}
+
+
+.custom-link  a:hover {
+  color: #fff;
+}
+
+a {
+	color: grey;
+}
+
+
+.custom-table td, th {
+	color: grey;
+}
+

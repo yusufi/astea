@@ -8,106 +8,112 @@
     <title>Astea</title>
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="font/style.css">
   </head>
   <body>
+    <div class="container container-custom">
   	<!-- Header Navbar -->
-  	<nav class="navbar navbar-default bg-faded">
-  	  <img src="data/fujicom.png">
-  	  <span>Customer Portal</span>
-  	  <ul class="nav navbar-nav pull-right">
-  	    <li class="nav-item"><img src="img/top1.png"></li>
-  	    <li class="nav-item"><img src="img/top2.png"></li>
-  	    <li class="nav-item"><img src="img/top3.png"></li>
-  	    <li class="nav-item"><img src="img/top4.png"></li>
-  	    <li class="nav-item"><img src="img/top5.png"></li>
-  	    <li class="nav-item">Powered by <img src="img/astea.png"></li>
-  	  </ul>
-  	</nav>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-3">
+  	  <nav class="navbar navbar-default navbar-custom">
+  	    <img src="data/fujicom.png" class="logo-img" alt="LOGO">
+  	    <span class="customer-portal-text">Customer Portal</span>
+  	    <ul class="nav navbar-nav pull-right">
+  	      <li class="nav-item"><span class="icon-info"></span></li>
+  	      <li class="nav-item top-nav-item"><span class="icon-user"></span></li>
+  	      <li class="nav-item top-nav-item"><span class="icon-question_mark"></span></li>
+  	      <li class="nav-item top-nav-item"><span class="icon-settings"></span></li>
+  	      <li class="nav-item top-nav-item"><span class="icon-logout"></span></li>
+  	      <li class="nav-item top-nav-item">Powered by <img src="img/astea.png"></li>
+  	    </ul>
+  	  </nav>
+      <!-- End of Top Navigation Bar -->
+
+      <div class="row content">
+        <div class="col-sm-3 left-nav">
           <form class="navbar-form navbar-left" role="search">
             <div class="form-group">
-              <input type="text" class="form-control" style="width: 240px" placeholder="Locate menu items">
+              <input type="text" class="form-control search-form" placeholder="Locate menu items">
             </div>
       	  </form>    
-   	      <ul class="nav">
-            <li class="nav-item"><a class="nav-link" href="#"><img src="img/quick_launch.png">Quick Launch</a></li>
-  		    <li class="nav-item"><a class="nav-link" href="#"><img src="img/home.png">Home</a></li>
-  		    <li class="nav-item"><a class="nav-link open-orders" href="#"><img src="img/open_orders.png">Open Orders</a></li>
-  		    <li class="nav-item"><a class="nav-link" href="#"><img src="img/orders_history.png">Order History</a></li>
-  		    <li class="nav-item"><a class="nav-link" href="#"><img src="img/invoices.png">Invoices</a></li>
-    		<li class="nav-item"><a class="nav-link" href="#"><img src="img/proposals_orders.png">Proposals Orders</a></li>
-	      </ul>
+   	      <ul class="nav custom-link">
+            <li class="nav-item left-nav-item"><a class="nav-link" href="#"><span class="icon-quick_launch"></span> Quick Launch</a></li>
+  		      <li class="nav-item left-nav-item"><a class="nav-link" href="#"><span class="icon-home"></span> Home</a></li>
+  		      <li class="nav-item left-nav-item"><a class="nav-link" href="#"><span class="icon-open_orders"></span> Open Orders</a></li>
+  		      <li class="nav-item left-nav-item"><a class="nav-link" href="#"><span class="icon-orders_history"></span> Order History</a></li>
+  		      <li class="nav-item left-nav-item"><a class="nav-link" href="#"><span class="icon-invoices"></span> Invoices</a></li>
+    		    <li class="nav-item left-nav-item"><a class="nav-link" href="#"><span class="icon-Proposals"></span> Proposals Orders</a></li>
+	        </ul>
 	    </div>
-	    <div class="col-sm-9">
-	      <div class="row">
+	    <div class="col-sm-9 right-side">
+	      <div class="row actions">
 	        <div class="col-sm-6">
-		      <ol class="breadcrumb">
-   		        <li><a href="#">Home</a></li>
+
+		      <ol class="breadcrumb custom-breadcumb">
+   		        <li><a href="#"><span class="icon-circle-left "></span> Home</a></li>
    		        <li><a href="#">Orders</a></li>
 		        <li class="active">Service order</li>
 		      </ol>
 	        </div>
 	        <div class="col-sm-6">
-	     	  <button type="button" class="btn btn-secondary">Function 1</button>
-	     	  <button type="button" class="btn btn-secondary">Function 2</button>
-			  <div class="btn-group">
-  			    <button type="button" class="btn btn-secondary dropdown-toggle action-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Actions</button>
-  				<div class="dropdown-menu">
- 				 <a class="dropdown-item" href="#">Action</a>
-    			 <a class="dropdown-item" href="#">Another action</a>
-    			 <a class="dropdown-item" href="#">Something else here</a>
-			  	</div>
-			  </div>
+	        <ul class="nav navbar-nav pull-right">
+	     	    <li class="nav-item"><button type="button" class="btn btn-secondary custom-button">Function 1</button></li>
+	     	    <li class="nav-item"><button type="button" class="btn btn-secondary custom-button">Function 2</button></li>
+			    <li class="nav-item"><div class="btn-group">
+  			      <button type="button" class="btn btn-secondary dropdown-toggle action-button custom-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Actions</button>
+  				    <div class="dropdown-menu">
+ 				        <a class="dropdown-item" href="#">Action</a>
+    			      <a class="dropdown-item" href="#">Another action</a>
+    			      <a class="dropdown-item" href="#">Something else here</a>
+			  	    </div>
+			      </div>
+			    </li>
 	        </div>
 	      </div>
-	      <div class="row">
-  		    <table class="table">
-  			  <thead>
-  			    <tr>
-  			      <th colspan="3">SUBJECT</th>
-  			      <th>STATUS</th>
-  			    </tr>
-  			  </thead>
+	      <div class="row subject-header">
+  		    <table class="table custom-table">
+  			    <thead>
+  			      <tr>
+  			        <th colspan="3">SUBJECT</th>
+  			        <th>STATUS</th>
+  			      </tr>
+  			    </thead>
   		      <tbody>
-  				<tr>
-  				  <td colspan="3">Printer printing giberish from Denis' laptop</td>
-  				  <td class="status">overdue</td>
-  				</tr>
-  			  </tbody>
-  			  <thead>
+  				    <tr>
+   				      <td colspan="3">Printer printing giberish from Denis' laptop</td>
+  				      <td class="status">overdue</td>
+  				    </tr>
+  			    </tbody>
+  			    <thead>
   		        <tr>
-  				  <th>ID</th>
-  				  <th colspan="2">PROBLEM TYPE</th>
-  				  <th>ELAPSED TIME</th>
-  				</tr>
-  			  </thead>
+  				      <th>ID</th>
+  				      <th colspan="2">PROBLEM TYPE</th>
+  				      <th>ELAPSED TIME</th>
+  				    </tr>
+  			    </thead>
   			    <tbody>
-  				  <tr>
-  				    <td>AM 10:24 20/05/2015</td>
-  				    <td colspan="2">Faulty printer driver (PT245)</td>
-  				    <td class="elapsed-time">37d 4h 14m</td>
-  				  </tr>
-  				</tbody>
-  			</table>
+  				    <tr>
+  				      <td>AM 10:24 20/05/2015</td>
+  				      <td colspan="2">Faulty printer driver (PT245)</td>
+  				      <td class="elapsed-time">37d 4h 14m</td>
+  				    </tr>
+  				  </tbody>
+  			  </table>
 	  	  </div>
-	  	  <div class="row">
-	  	  	<div class="col-sm-8">
-	  	  	  <!-- Nav tabs -->
-		      <ul class="nav nav-tabs" role="tablist">
-                <li class="nav-item"><a class="nav-link active" href="#details" role="tab" data-toggle="tab">Details</a></li>
-  				<li class="nav-item"><a class="nav-link" href="#attachments" role="tab" data-toggle="tab">Attachments</a></li>
-  				<li class="nav-item"><a class="nav-link" href="#order_history" role="tab" data-toggle="tab">Order History</a></li>
-  				<li class="nav-item"><a class="nav-link" href="#billing_info" role="tab" data-toggle="tab">Billing Info</a></li>
-			  </ul>
-			  <!-- Tab panes -->
-			  <div class="tab-content">
-  				<div role="tabpanel" class="tab-pane active" id="details">
-  				  <a data-toggle="collapse" href="#order_dates">Order Dates</a>
-  				  <div class="collapse in" id="order_dates">
+	  	  <div class="row custom-tab">
+	  	  	<div class="col-sm-12 ">
+            <!-- Nav tabs -->
+		        <ul class="nav nav-tabs" role="tablist">
+              <li class="nav-item"><a class="nav-link active" href="#details" role="tab" data-toggle="tab">Details</a></li>
+  				    <li class="nav-item"><a class="nav-link" href="#attachments" role="tab" data-toggle="tab">Attachments</a></li>
+  				    <li class="nav-item"><a class="nav-link" href="#order_history" role="tab" data-toggle="tab">Order History</a></li>
+  				    <li class="nav-item"><a class="nav-link" href="#billing_info" role="tab" data-toggle="tab">Billing Info</a></li>
+			      </ul>
+            <!-- Tab panes -->
+			      <div class="tab-content">
+  				    <div role="tabpanel" class="tab-pane active" id="details">
+  				      <div><a data-toggle="collapse" href="#order_dates"><span class="icon-arrow_down"></span> Order Dates</a></div>
+  				      <div class="collapse in custom-tab-pan" id="order_dates">
   				    <table class="table">
   				      <thead>
   				        <tr>
@@ -135,8 +141,8 @@
   				      </tbody>
   				    </table>
   				  </div>
- 				  <a data-toggle="collapse" href="#customer_details">Customer Details</a>
-  				  <div class="collapse in" id="customer_details">
+ 				  <div><a data-toggle="collapse" href="#customer_details"><span class="icon-arrow_down"></span> Customer Details</a></div>
+  				  <div class="collapse in custom-tab-pan" id="customer_details">
   				    <table class="table">
   				      <thead>
   				        <tr>
@@ -164,8 +170,8 @@
   				      </tbody>
   				    </table>
   				  </div>  				  
- 				  <a data-toggle="collapse" href="#product_details">Product Details</a>
-  				  <div class="collapse in" id="product_details">
+ 				  <div><a data-toggle="collapse" href="#product_details"><span class="icon-arrow_down"></span> Product Details</a></div>
+  				  <div class="collapse in custom-tab-pan" id="product_details">
   				    <table class="table">
   				      <thead>
   				        <tr>
@@ -193,9 +199,9 @@
   				      </tbody>
   				    </table>
   				  </div>
- 				  <a data-toggle="collapse" href="#description">Descrition</a>
- 				  <div class="collapse in" id="description">
- 				    <p class="description">Last Edited: <span>23/08/2014</span><a href="#">Edit</a></p>
+ 				  <a data-toggle="collapse" href="#description"><span class="icon-arrow_down"></span> Descrition</a>
+ 				  <div class="collapse in custom-tab-pan" id="description">
+ 				    <p class="description">Last Edited: <span>23/08/2014</span><a href="#"> Edit</a></p>
   				  	<p>When Denis connects to the network with his laptop and tries to print, all the text comes outas Gibberish. The laptop model</p>
   				  </div>  				    				 
   				</div>
