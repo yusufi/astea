@@ -290,6 +290,7 @@ td, th {
 
 .custom-form input {
 	width: 180px;
+	padding-left: 0.5rem;
 	border-radius: inherit;
 	border: none;
 	color: red;
