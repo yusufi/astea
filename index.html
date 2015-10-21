@@ -57,14 +57,14 @@
 	        <ul class="nav navbar-nav pull-right">
 	     	    <li class="nav-item"><button type="button" class="btn btn-secondary custom-button">Function 1</button></li>
 	     	    <li class="nav-item"><button type="button" class="btn btn-secondary custom-button">Function 2</button></li>
-			    <li class="nav-item"><div class="btn-group">
-  			      <button type="button" class="btn btn-secondary dropdown-toggle action-button custom-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Actions</button>
-  				    <div class="dropdown-menu">
+			    <li class="nav-item"><div class="btn-group" style="position: relative">
+  			      <button type="button" class="btn btn-secondary dropdown-toggle custom-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Actions</button>
+  				    <div class="dropdown-menu" style="position: absolute; top: 40px; left: -35px">
  				      <a class="dropdown-item" href="#">Cancel Order</a>
     			      <a class="dropdown-item" href="#">Escalate Order</a>
-    			      <a class="dropdown-item" href="#">Send by mail</a>
-    			      <a class="dropdown-item" href="#">Print</a>
-    			      <a class="dropdown-item" href="#">Download</a>
+    			      <a class="dropdown-item" href="#"><span class="icon-mail2"></span> <span>Send by mail</span></a>
+    			      <a class="dropdown-item" href="#"><span class="icon-print2"></span> <span>Print</span></a>
+    			      <a class="dropdown-item" href="#"><span class="icon-download"></span> <span>Download</span></a>
 			  	    </div>
 			      </div>
 			    </li>
@@ -199,9 +199,9 @@
   				      </tbody>
   				    </table>
   				  </div>
- 				  <a data-toggle="collapse" href="#description"><span class="icon-arrow_down"></span><span class="title-tab-pan"> Descrition</span></a>
+ 				  <a data-toggle="collapse" href="#description"><span class="icon-arrow_down"></span><span class="title-tab-pan"> Description</span></a>
  				  <div class="collapse in custom-tab-pan" id="description">
- 				    <p class="description">Last Edited: <span>23/08/2014</span><a href="#"> Edit</a></p>
+ 				    <p class="last-edited">Last Edited: <span>23/08/2014</span><a href="#"> Edit</a></p>
   				  	<p class="description-message">When Denis connects to the network with his laptop and tries to print, all the text comes outas Gibberish. The laptop model</p>
   				  </div>  				    				 
   				</div>
