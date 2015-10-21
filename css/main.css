@@ -112,15 +112,19 @@
 	background-color: white;
 }
 
-.custom-breadcumb, 
-.custom-breadcumb a {
+.custom-breadcrumb {
 	background-color: #fff;
 	font-size: 14px;
-	color: #2a2a2a;
+	color: #2a2a2a !important;
 	font-family: 'Open Sans';
 }
 
-
+.breadcrumb-link {
+	background-color: #fff;
+	font-size: 14px;
+	color: #2a2a2a !important;
+	font-family: 'Open Sans';
+}
 
 .subject-header {
 	border: lightgrey solid 1px;
