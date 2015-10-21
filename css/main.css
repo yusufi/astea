@@ -5,12 +5,12 @@
 .btn-secondary:focus,
 .dropdown-item:hover, 
 .open > .btn-secondary.dropdown-toggle {
-	background-color: rgb(237,27,36);
+	background-color: #f51535;
 	color: #fff;
 }
 
 .theme-text-color {
-	color: red !important;
+	color: #f51535 !important;
 }
 /* END OF THEME CHANGE*/
 
@@ -174,14 +174,9 @@ td, th {
 	color: #7d97a4;
 }
 
-.title-data {
-	font-size: 12px;
-	font-family: 'Open Sans';
-	color: #c6d4da;
-}
-
 .custom-table {
 	margin: 0;
+	padding-top: 3rem;
 }
 
 .custom-table th {
@@ -190,12 +185,6 @@ td, th {
 	font-family: 'Open Sans';
 	font-weight: bold;
 	color: #c6d4da;
-
-}
-
-.custom-table {
-	padding-top: 3rem;
-
 }
 
 .custom-table td {
@@ -220,8 +209,8 @@ td, th {
 	margin-left: 1.5rem;
 }
 
-.title-tab-pan,
-.title-tab-pan a  {
+.table-title,
+.table-title a  {
 	font-size: 14px;
 	font-family: 'Open Sans';
 	color: #7d97a4;
@@ -279,7 +268,7 @@ td, th {
 	border: solid #7d97a4 1px; 
 	background: #fff; 
 	border-radius: 1rem; 
-	padding: 0.3rem 0.5rem;
+	padding: 6px;
 }
 
 .custom-form button {
@@ -293,7 +282,6 @@ td, th {
 	padding-left: 0.5rem;
 	border-radius: inherit;
 	border: none;
-	color: red;
 }
 
 .custom-form span {
@@ -314,3 +302,21 @@ td, th {
 	font-size: 12px;
 }
 
+
+
+/* INPUT PLACEHOLDER COLOR */
+::-webkit-input-placeholder {
+   color: #c6d4da;
+   font-style: italic;
+}
+
+::-moz-placeholder { 
+   color: #c6d4da;
+   font-style: italic;
+}
+
+:-ms-input-placeholder {
+   color: #c6d4da;
+   font-style: italic;
+}
+ /* END OF INPUT PLACEHOLDER COLOR */
