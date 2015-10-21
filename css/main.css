@@ -82,6 +82,13 @@
 	color: #7d97a4;
 }
 
+.custom-button > a {
+	font-family: 'Open Sans';
+	font-size: 14px;
+	color: red;
+}
+
+
 .content {
 	margin-left: 0;
 	margin-right: 0;
@@ -252,3 +259,34 @@ a {
 	vertical-align: middle;
 }
 
+.custom-form {
+	margin-left: 1.5rem;
+	display: inline-block; 
+	border: solid #7d97a4 1px; 
+	background: #fff; 
+	border-radius: 1rem; 
+	padding: 0.3rem 0.5rem;
+}
+
+.custom-form button {
+	background: inherit; 
+	border-radius: inherit;
+	border: none; 
+}
+
+.custom-form input {
+	width: 180px;
+	border-radius: inherit;
+	border: none;
+	color: red;
+}
+
+.custom-form span {
+	color: #7d97a4;
+}
+
+.powered-by {
+	font-family: 'Open Sans';
+	font-size: 12px;
+	color: #526069;
+}
