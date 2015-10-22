@@ -254,6 +254,11 @@ td, th {
 	text-decoration: underline;
 }
 
+a {
+  text-decoration: none;
+}
+
+
 /* INPUT PLACEHOLDER COLOR */
 ::-webkit-input-placeholder {
    color: #c6d4da;
