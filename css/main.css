@@ -1,18 +1,4 @@
-/*  Theme Change */
-.left-nav-item:hover,
-.custom-button:hover,
-.btn-secondary:active,
-.btn-secondary:focus,
-.dropdown-item:hover, 
-.open > .btn-secondary.dropdown-toggle {
-	background-color: #f51535;
-	color: #fff;
-}
-
-.theme-text-color {
-	color: #f51535 !important;
-}
-/* END OF THEME CHANGE*/
+@import 'theme.css';
 
 .logo-img {
 	margin-left: 1.5rem;
@@ -267,7 +253,6 @@ td, th {
 .edit-description {
 	text-decoration: underline;
 }
-
 
 /* INPUT PLACEHOLDER COLOR */
 ::-webkit-input-placeholder {
