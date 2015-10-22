@@ -2306,7 +2306,7 @@ fieldset[disabled] .btn-primary:hover {
 .btn-secondary {
   color: #373a3c;
   background-color: #fff;
-  border-color: #ccc;
+  border: solid #7d97a4 2px ;
 }
 
 .btn-secondary:focus,
