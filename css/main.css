@@ -30,14 +30,6 @@
 	border-left: solid lightgrey 1px;
 }
 
-.status, 
-.elapsed-time,
-.eta-date {
-	color: rgba(237,27,36, 1);
-}
-
-/* End of Theme Change */
-
 .top-navbar {
 	background-color: #fff;
 	border-radius: 	0;
