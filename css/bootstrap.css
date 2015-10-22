@@ -327,7 +327,7 @@ html {
 }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans';
   font-size: 1rem;
   line-height: 1.5;
   color: #373a3c;
@@ -4094,7 +4094,6 @@ input[type="button"].btn-block {
   padding: 0;
   margin-bottom: 1rem;
   list-style: none;
-  background-color: #eceeef;
   border-radius: .25rem;
 }
 
