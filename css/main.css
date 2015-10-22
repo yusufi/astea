@@ -200,7 +200,7 @@ td, th {
 	display: inline-block;
 	width: 48px;
 	font-size: 18px;
-	color: #7d97a4;
+	color: inherit;
 }
 
 .top-nav-item a span {
