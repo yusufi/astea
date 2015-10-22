@@ -359,8 +359,8 @@ address {
 ol,
 ul,
 dl {
-  margin-top: 0;
-  margin-bottom: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 ol ol,
@@ -4075,9 +4075,7 @@ input[type="button"].btn-block {
 
 .breadcrumb {
   padding: 0;
-  margin-bottom: 1rem;
   list-style: none;
-  border-radius: .25rem;
 }
 
 .breadcrumb > li {
