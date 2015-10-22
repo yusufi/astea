@@ -16,6 +16,10 @@
 	border-left: solid lightgrey 1px;
 }
 
+.top-nav-item:nth-child(1) {
+	border: none;
+}
+
 .top-navbar {
 	background-color: #fff;
 	border-radius: 	0;
@@ -195,6 +199,12 @@ td, th {
 .left-icon {
 	display: inline-block;
 	width: 48px;
+	font-size: 18px;
+	color: #7d97a4;
+}
+
+.top-nav-item a span {
+	color: #7d97a4;
 }
 
 .icon-arrow_down {
@@ -203,7 +213,10 @@ td, th {
 }
 
 .icon-back_btn {
-	font-size: 24px;
+	display: inline-block;
+	width: 48px;
+	font-size: 32px;
+	color: #7d97a4;
 }
 
 .vertical-m {
@@ -257,7 +270,6 @@ td, th {
 a {
   text-decoration: none;
 }
-
 
 /* INPUT PLACEHOLDER COLOR */
 ::-webkit-input-placeholder {
